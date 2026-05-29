@@ -3,26 +3,30 @@ import time
 
 pyautogui.FAILSAFE = True
 
-print("Automação iniciando em 3 segundos...")
+print("Iniciando automação...")
 time.sleep(3)
 
-# Mover mouse até o Brave
-pyautogui.moveTo(x=1255, y=1052, duration=1)
+# Abrir menu iniciar
+pyautogui.press("win")
 
-# Clicar no Brave
-pyautogui.click()
+time.sleep(1)
+
+# Procurar Chrome
+pyautogui.write("chrome", interval=0.1)
+
+time.sleep(1)
+
+# Abrir Chrome
+pyautogui.press("enter")
 
 # Esperar abrir
 time.sleep(3)
 
-# Ir até barra de pesquisa
-pyautogui.moveTo(x=705, y=67, duration=1)
+# Ir para barra de pesquisa/endereço
+pyautogui.hotkey("ctrl", "l")
 
-# Clicar na barra
-pyautogui.click()
-
- #Escrever pesquisa
+# Digitar pesquisa
 pyautogui.write("Curso Python", interval=0.1)
 
-# Apertar Enter
+# Pesquisar
 pyautogui.press("enter")
