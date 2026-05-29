@@ -1,35 +1,30 @@
-# 🤖 Automação com Python + PyAutoGUI
+# 🤖 Automação Desktop com Python
 
-Um projeto simples de automação desktop em Python utilizando `PyAutoGUI` para simular ações do mouse e teclado.
-
----
-
-## ✨ Visão Geral
-
-Este projeto demonstra como automatizar tarefas repetitivas no computador, como:
-
-- Abrir o navegador
-- Navegar automaticamente
-- Pesquisar no Google
-- Simular teclado e mouse
+Projeto de automação desenvolvido em Python utilizando PyAutoGUI para automatizar tarefas no computador.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- Aguarda alguns segundos antes de iniciar
-- Move o mouse automaticamente
-- Clica em elementos da tela
-- Digita textos automaticamente
-- Pressiona teclas
-- Faz pesquisas no Google
+- Abrir o navegador automaticamente
+- Acessar o Google
+- Fazer pesquisas automáticas
+- Simular teclado e mouse
+- Utilizar atalhos do sistema
 
 ---
 
-## 📁 Estrutura do Projeto
+## 🛠️ Tecnologias Utilizadas
+
+- Python 3
+- PyAutoGUI
+
+---
+
+## 📂 Estrutura do Projeto
 
 ```text
-Projeto-Automacao-com-Python/
+automacao-desktop/
 │
 ├── Main.py
 └── README.md
@@ -37,22 +32,17 @@ Projeto-Automacao-com-Python/
 
 ---
 
-## ⚙️ Tecnologias Utilizadas
+## ▶️ Como Executar
 
-- Python 3
-- PyAutoGUI
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/SEUUSUARIO/automacao-desktop.git
+```
 
 ---
 
-## 🔧 Instalação
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/SEUUSUARIO/SEUREPOSITORIO.git
-```
-
-Instale a dependência:
+### 2. Instale as dependências
 
 ```bash
 pip install pyautogui
@@ -60,9 +50,7 @@ pip install pyautogui
 
 ---
 
-## ▶️ Como Executar
-
-Execute o arquivo principal:
+### 3. Execute o projeto
 
 ```bash
 python Main.py
@@ -70,14 +58,38 @@ python Main.py
 
 ---
 
-## ⚠️ Observações
+## 💻 Como Funciona
 
-- O projeto utiliza coordenadas da tela.
-- Dependendo da resolução do monitor, pode ser necessário ajustar posições.
-- O `pyautogui.FAILSAFE = True` foi ativado para permitir parar a automação movendo o mouse para o canto superior esquerdo da tela.
+O programa:
+
+1. Abre o menu iniciar
+2. Procura o Google Chrome
+3. Abre o navegador
+4. Seleciona automaticamente a barra de pesquisa
+5. Realiza uma busca no Google
 
 ---
 
-## 📌 Autor
+## ⚠️ Observações
 
-Projeto desenvolvido para estudos de automação desktop com Python e PyAutoGUI.
+- O projeto foi desenvolvido utilizando atalhos do teclado para melhorar compatibilidade entre diferentes computadores e resoluções.
+- O `pyautogui.FAILSAFE = True` permite interromper a automação movendo o mouse para o canto superior esquerdo da tela.
+
+---
+
+## 📌 Aprendizados
+
+Neste projeto foram utilizados conceitos de:
+
+- Automação desktop
+- Controle de teclado
+- Controle de mouse
+- Tempo de execução
+- Organização de projetos
+- Git e GitHub
+
+---
+
+## 👨‍💻 Autor
+
+Projeto desenvolvido para estudos de automação com Python.
