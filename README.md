@@ -6,18 +6,18 @@ Projeto de automação desenvolvido em Python utilizando PyAutoGUI para automati
 
 ## 🚀 Funcionalidades
 
-- Abrir o navegador automaticamente
-- Acessar o Google
-- Fazer pesquisas automáticas
-- Simular teclado e mouse
-- Utilizar atalhos do sistema
+* Abrir o Google Chrome automaticamente
+* Acessar sites
+* Fazer pesquisas automáticas
+* Simular teclado e mouse
+* Utilizar atalhos do sistema
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Python 3
-- PyAutoGUI
+* Python 3
+* PyAutoGUI
 
 ---
 
@@ -27,30 +27,34 @@ Projeto de automação desenvolvido em Python utilizando PyAutoGUI para automati
 automacao-desktop/
 │
 ├── Main.py
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
+## 🔧 Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/juancodebr/Primeiro-projeto-de-automacao-com-PyAutoGUI
+
+Entre na pasta do projeto:
+
+```bash
+cd automacao-desktop
+```
+
+Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
 ## ▶️ Como Executar
-
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/SEUUSUARIO/automacao-desktop.git
-```
-
----
-
-### 2. Instale as dependências
-
-```bash
-pip install pyautogui
-```
-
----
-
-### 3. Execute o projeto
 
 ```bash
 python Main.py
@@ -72,24 +76,23 @@ O programa:
 
 ## ⚠️ Observações
 
-- O projeto foi desenvolvido utilizando atalhos do teclado para melhorar compatibilidade entre diferentes computadores e resoluções.
-- O `pyautogui.FAILSAFE = True` permite interromper a automação movendo o mouse para o canto superior esquerdo da tela.
+* O projeto utiliza atalhos do teclado para funcionar em diferentes computadores.
+* O `pyautogui.FAILSAFE = True` permite interromper a automação movendo o mouse para o canto superior esquerdo da tela.
+* Dependendo do desempenho do computador, pode ser necessário ajustar os tempos de espera (`time.sleep`).
 
 ---
 
-## 📌 Aprendizados
+## 📌 Conceitos Utilizados
 
-Neste projeto foram utilizados conceitos de:
-
-- Automação desktop
-- Controle de teclado
-- Controle de mouse
-- Tempo de execução
-- Organização de projetos
-- Git e GitHub
+* Automação desktop
+* Controle de teclado
+* Controle de mouse
+* Tempo de execução
+* Organização de projetos
+* Git e GitHub
 
 ---
 
 ## 👨‍💻 Autor
 
-Projeto desenvolvido para estudos de automação com Python.
+Projeto desenvolvido para estudos de automação com Python e PyAutoGUI.
